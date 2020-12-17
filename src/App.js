@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-//import Nav from './components/Nav';
+import Nav from './components/Nav';
 import About from './components/About';
 //import Gallery from './components/Gallery';
 //import ContactForm from './components/Contact';
@@ -17,7 +17,7 @@ function App() {
 
   // Maintain the state of the application and what is currently rendered.
   // By initializing 'contactSelected to false, the contact form will not be initially shown.
-  //const [contactSelected, setContactSelected] = useState(false);
+  const [contactSelected, setContactSelected] = useState(false);
 
 
   const [categories] = useState([
@@ -38,26 +38,23 @@ function App() {
   return (
     <div> 
       {/* This element will put up the header. */}
-      {/* <Nav
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory} 
+      <Nav>
         contactSelected={contactSelected}
         setContactSelected={setContactSelected}
-      >
-      </Nav>      */}
+      </Nav>     
 
       <main>
-        {/* {!contactSelected ? ( */}
+        {!contactSelected ? (
           <>
             {/* Render 'gallery' and 'about' if 'contactSelected' is false. Note these two DOM elements are wrapped in 'React Fragments"!  */}
             {/* <Gallery currentCategory={currentCategory}></Gallery> */}
             <About></About>
           </>
-        {/* // ) : (
-            // Render the contact form if 'contactSelected' is true. 
-            // <ContactForm></ContactForm>
-        // )} */}
+        ) : (
+          // Render the contact form if 'contactSelected' is true. 
+          //<ContactForm></ContactForm>
+          <div></div>
+      )}
       </main>
     </div>
   );
