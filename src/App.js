@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
-//import Gallery from './components/Gallery';
-//import ContactForm from './components/Contact';
+import Portfolio from './components/Portfolio';
+import ContactForm from './components/Contact';
 
 
 
@@ -30,11 +30,28 @@ function App() {
       description: "A list of the projects completed.",
     },
     { name: "resume", 
-      description: "My Resume." 
+      description: "My Resume.", 
     },
   ]);
 
   const [ currentOption, setCurrentOption ] = useState( options[0] );
+
+  const renderPage = ( page ) => {  
+ 
+    switch (page.name) {
+
+
+      case 'portfolio':
+        // return <Portfolio />;
+        
+      case 'resume':
+        // return <Resume />;
+        
+      case 'about':
+      default:
+        return <About />;
+    }
+  }
 
   return (
     <div> 
@@ -50,15 +67,16 @@ function App() {
 
       <main>
         {!contactSelected ? (
-          <>
-            {/* Render the if 'contactSelected' is false. Note these two DOM elements are wrapped in 'React Fragments"!  */}
-            {/* <Gallery currentOption={currentOption}></Gallery> */}
-            <About></About>
-          </>
+          <div>
+            {/* Render the selected page if 'contactSelected' is false. */}
+
+            {renderPage( currentOption )}
+          </div>
         ) : (
           // Render the contact form if 'contactSelected' is true. 
-          //<ContactForm></ContactForm>
-          <div></div>
+          <div>
+             <ContactForm></ContactForm>
+          </div>
       )}
       </main>
     </div>

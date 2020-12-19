@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Auto-Tracker",
+    "image": "./src/assets/images/auto-tracker1.jpg",
+    "description": "Facilitates tracking important auto details."
+  },
+  {
+    "id": 2,
+    "name": "Weather Display",
+    "image": "./src/assets/images/weather.jpg",
+    "description": "Display weather forecasts for cities."
+  },
+  {
+    "id": 3,
+    "name": "Stockman",
+    "image": "./src/assets/images/stockman.jpg",
+    "description": "Track stocks and Crypto Currencies."
+  },
+  {
+    "id": 4,
+    "name": "Workday",
+    "image": "./src/assets/images/workday.jpg",
+    "description": "A workday planner."
+  },
+  {
+    "id": 5,
+    "name": "Employee Tracker",
+    "image": "./src/assets/images/employee-tracker.jpg",
+    "description": "A console app to track employee details."
+  },
+  {
+    "id": 6,
+    "name": "Note Taker",
+    "image": "./src/assets/images/notes-taker.jpg",
+    "description": "Maintains a note list."
+  }
+]
