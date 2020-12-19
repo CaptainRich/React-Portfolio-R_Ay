@@ -51,7 +51,7 @@ function App() {
       <main>
         {!contactSelected ? (
           <>
-            {/* Render 'gallery' and 'about' if 'contactSelected' is false. Note these two DOM elements are wrapped in 'React Fragments"!  */}
+            {/* Render the if 'contactSelected' is false. Note these two DOM elements are wrapped in 'React Fragments"!  */}
             {/* <Gallery currentOption={currentOption}></Gallery> */}
             <About></About>
           </>
