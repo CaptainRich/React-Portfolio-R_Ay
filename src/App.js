@@ -20,34 +20,39 @@ function App() {
   const [contactSelected, setContactSelected] = useState(false);
 
 
-  const [categories] = useState([
+  const [options] = useState([
     {
-      name: "commercial",
-      description: "Photos of grocery stores, food trucks, and other commercial projects",
+      name: "about",
+      description: "A brief personal overview.",
     },
-    { name: "portraits", description: "Portraits of people in my life" },
-    { name: "food", description: "Delicious delicacies" },
     {
-      name: "landscape",
-      description: "Fields, farmhouses, waterfalls, and the beauty of nature",
+      name: "portfolio",
+      description: "A list of the projects completed.",
+    },
+    { name: "resume", 
+      description: "My Resume." 
     },
   ]);
 
-  const [ currentCategory, setCurrentCategory ] = useState( categories[0] );
+  const [ currentOption, setCurrentOption ] = useState( options[0] );
 
   return (
     <div> 
       {/* This element will put up the header. */}
-      <Nav>
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
+      <Nav
+        options            = {options}
+        setCurrentOption   = {setCurrentOption}
+        currentOption      = {currentOption}
+        contactSelected    = {contactSelected}
+        setContactSelected = {setContactSelected}
+      >
       </Nav>     
 
       <main>
         {!contactSelected ? (
           <>
             {/* Render 'gallery' and 'about' if 'contactSelected' is false. Note these two DOM elements are wrapped in 'React Fragments"!  */}
-            {/* <Gallery currentCategory={currentCategory}></Gallery> */}
+            {/* <Gallery currentOption={currentOption}></Gallery> */}
             <About></About>
           </>
         ) : (

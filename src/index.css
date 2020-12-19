@@ -7,10 +7,10 @@ main {
 :root {
   --light: #f2d0a4ff;
   --primary: #5f1c25ff;
-  --tertiary: #ffc2eaff;
+  --tertiary: rgb(184, 141, 67);
   --secondary: #ffecccff;
-  --dark: #000000;
-  --darker: #111111;
+  --dark: #c8d6afff;
+  --darker: #c8d6afff;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -96,7 +96,7 @@ header {
 }
 
 header a {
-  color: var(--light);
+  color: var(--pri);
 }
 
 button {
@@ -291,5 +291,9 @@ a {
 }
 
 .navActive {
-  color: var(--secondary);
+  color: var(--tertiary);
+  font-family: 'Arial', sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  vertical-align: bottom;
 }
