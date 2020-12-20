@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Auto-Tracker",
-    "image": "./src/assets/images/auto-tracker1.jpg",
+    "image": "auto-tracker1.jpg",
     "description": "Facilitates tracking important auto details.",
     "gitrepo":  "https://github.com/p2T3/auto-tracker",
     "deployment": "https://team-3-auto-tracker.herokuapp.com/"
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "name": "Weather Display",
-    "image": "./src/assets/images/weather.jpg",
+    "image": "weather.jpg",
     "description": "Display weather forecasts for cities.",
     "gitrepo":  "https://github.com/CaptainRich/Weather-Dashboard",
     "deployment": "https://captainrich.github.io/Weather-Dashboard/"
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "name": "Stockman",
-    "image": "./src/assets/images/stockman.jpg",
+    "image": "stockman.jpg",
     "description": "Track stocks and Crypto Currencies.",
     "gitrepo":  "https://github.com/CaptainRich/stockman",
     "deployment": "https://team-antman-project-1.github.io/stockman/"
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "name": "Workday",
-    "image": "./src/assets/images/workday.jpg",
+    "image": "workday.jpg",
     "description": "A workday planner.",
     "gitrepo":  "https://github.com/CaptainRich/WorkDay-Scheduler",
     "deployment": "https://captainrich.github.io/WorkDay-Scheduler/"
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "name": "Budget Tracker",
-    "image": "./src/assets/images/budget-tracker.jpg",
+    "image": "budget-tracker.jpg",
     "description": "A web app to track monetary inflow/outflow during travel.",
     "gitrepo":  "hhttps://github.com/CaptainRich/budget-tracker",
     "deployment": "https://budget-tracker-ray.herokuapp.com/"
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "name": "Note Taker",
-    "image": "./src/assets/images/notes-taker.jpg",
+    "image": "notes-taker.jpg",
     "description": "Maintains a note list.",
     "gitrepo":  "https://github.com/CaptainRich/Note-Taker",
     "deployment": "https://stark-coast-92698.herokuapp.com/"

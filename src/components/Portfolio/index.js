@@ -1,5 +1,5 @@
 
-import React from 'react'
+import React, {useState} from 'react'
 import projects from "./projects.json";
 
 function ProjectCard( props ) {
@@ -8,7 +8,7 @@ function ProjectCard( props ) {
     <div className="card">
 
       <div className="img-container">
-         <img alt={props.name} src={props.image} />
+         <img alt={props.name} src={require(`../../assets/images/${props.image}`)} />
       </div>
 
       <div className="content">
@@ -32,6 +32,11 @@ function ProjectCard( props ) {
   )
 
 }
+
+function Wrapper(props) {
+  return <div className="wrapper">{props.children}</div>;
+}
+
 
 function Portfolio() {
 
