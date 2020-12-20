@@ -24,6 +24,10 @@ function About() {
           documentation, training, and presentations.  Software development efforts involved various technologies and languages (Assembly, Fortran, C, C++, HTML, CSS, and Javascript).
         </p>
 
+        <p>
+          I believe you can never stop learning.  I received by Bachelors Degree in 1977 (BS Ocean Engineering - Florida Institute of Technology), my Masters Degree in 1983 (MS Civil Engineering - University of Houston), my MBA in 2019 (Johns Hopkins University), and my Bootcamp Coding Certificate in 2021 (University of Texas). Education keeps the mind sharp, enabling a problem solving mentality that benefits employers and society in general.
+        </p>
+
       </div>
     </section>
   )

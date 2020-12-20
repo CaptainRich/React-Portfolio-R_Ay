@@ -44,8 +44,10 @@ Given a single-page application portfolio for a web developer:
 
 ## Technologies Used
 
-* React
+* React, single page application
 * Service Workers
+* The NPM React package 'card-flip'
+* Google Drive (for resume storage)
 
 
 

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
+import Expertise from './components/Expertise';
 import ContactForm from './components/Contact';
 
 
@@ -16,8 +17,7 @@ import ContactForm from './components/Contact';
 function App() {
 
   // Maintain the state of the application and what is currently rendered.
-  // By initializing 'contactSelected to false, the contact form will not be initially shown.
-  const [contactSelected, setContactSelected] = useState(false);
+
 
 
   const [options] = useState([
@@ -29,9 +29,13 @@ function App() {
       name: "portfolio",
       description: "A list of the projects completed.",
     },
-    { name: "resume", 
-      description: "My Resume.", 
+    { name: "expertise", 
+      description: "My capabilities.", 
     },
+    {
+      name: "contact",
+      description: "Request a return communication."
+    }
   ]);
 
   const [ currentOption, setCurrentOption ] = useState( options[0] );
@@ -42,10 +46,13 @@ function App() {
 
 
       case 'portfolio':
-        // return <Portfolio />;
+        return <Portfolio />;
         
-      case 'resume':
-        // return <Resume />;
+      case 'expertise':
+        return <Expertise />;
+
+      case 'contact':
+        return <ContactForm />;
         
       case 'about':
       default:
@@ -54,30 +61,20 @@ function App() {
   }
 
   return (
-    <div> 
+    <div>
       {/* This element will put up the header. */}
       <Nav
-        options            = {options}
-        setCurrentOption   = {setCurrentOption}
-        currentOption      = {currentOption}
-        contactSelected    = {contactSelected}
-        setContactSelected = {setContactSelected}
+        options={options}
+        setCurrentOption={setCurrentOption}
+        currentOption={currentOption}
       >
-      </Nav>     
+      </Nav>
 
       <main>
-        {!contactSelected ? (
-          <div>
-            {/* Render the selected page if 'contactSelected' is false. */}
-
-            {renderPage( currentOption )}
-          </div>
-        ) : (
-          // Render the contact form if 'contactSelected' is true. 
-          <div>
-             <ContactForm></ContactForm>
-          </div>
-      )}
+        <div>
+          {/* Display the selected page. */}
+          {renderPage(currentOption)}
+        </div>
       </main>
     </div>
   );

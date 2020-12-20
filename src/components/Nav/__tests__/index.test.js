@@ -6,13 +6,12 @@ import Nav from '..';
 
 // Add the data and mock functions to address the 'props' passed into 
 // the Nav() function.
-const categories = [
-  { name: 'portraits', description: 'Portraits of people in my life' }
+const options = [
+  { name: 'about', description: 'A summary of my skills.' }
 ]
-const mockCurrentCategory = jest.fn();
-const mockSetCurrentCategory = jest.fn();
-const mockContactSelected = jest.fn();
-const mockSetContactSelected = jest.fn();
+const mockCurrentOption = jest.fn();
+const mockSetCurrentOption = jest.fn();
+
 
 
 // Invoke the cleanup function, to remove components from the DOM to prevent
@@ -26,11 +25,9 @@ describe( "About component", () =>{
     // First test - baseline to verify the component is rendering
     it('renders', () => {
       render(<Nav
-        categories={categories}
-        setCurrentCategory={mockSetCurrentCategory}
-        currentCategory={mockCurrentCategory}
-        contactSelected={mockContactSelected}
-        setContactSelected={mockSetContactSelected}
+        options={options}
+        setCurrentCategory={mockSetCurrentOption}
+        currentCategory={mockCurrentOption}
       />);
       });
 
@@ -38,11 +35,9 @@ describe( "About component", () =>{
     it('matches snapshot', () => {
         
         const { asFragment } = render(<Nav 
-          categories={categories}
-          setCurrentCategory={mockSetCurrentCategory}
-          currentCategory={mockCurrentCategory}
-          contactSelected={mockContactSelected}
-          setContactSelected={mockSetContactSelected}
+          options={options}
+          setCurrentOption={mockSetCurrentOption}
+          currentOption={mockCurrentOption}
         />);
         
         expect(asFragment()).toMatchSnapshot();
@@ -50,22 +45,20 @@ describe( "About component", () =>{
 
 });
 
-// Now test for the 'camera emoji'
+// Now test for the 'briefcase emoji'
 describe('emoji is visible', () => {
 
     it('inserts emoji into the h2', () => {
 
         // Arrange
         const { getByLabelText } = render(<Nav 
-          categories={categories}
-          setCurrentCategory={mockSetCurrentCategory}
-          currentCategory={mockCurrentCategory}
-          contactSelected={mockContactSelected}
-          setContactSelected={mockSetContactSelected}
+          options={options}
+          setCurrentOption={mockSetCurrentOption}
+          currentOption={mockCurrentOption}
         />);
 
         // Assert  
-        expect(getByLabelText('camera')).toHaveTextContent('📸');
+        expect(getByLabelText('briefcase')).toHaveTextContent('💼');
 
     })
 });
@@ -78,16 +71,14 @@ describe('links are visible', () => {
 
       // Arrange
       const { getByTestId } = render(<Nav 
-          categories={categories}
-          setCurrentCategory={mockSetCurrentCategory}
-          currentCategory={mockCurrentCategory}
-          contactSelected={mockContactSelected}
-          setContactSelected={mockSetContactSelected}
+        options={options}
+        setCurrentOption={mockSetCurrentOption}
+        currentOption={mockCurrentOption}
         />);
 
       // Assert
-      expect(getByTestId('link')).toHaveTextContent('Oh Snap!');
-      expect(getByTestId('about')).toHaveTextContent('About me');
+      expect(getByTestId('link')).toHaveTextContent('My Portfolio!');
+      expect(getByTestId('about')).toHaveTextContent('About');
 
     });
   });
