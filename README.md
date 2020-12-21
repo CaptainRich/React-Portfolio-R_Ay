@@ -53,7 +53,7 @@ Given a single-page application portfolio for a web developer:
 
 ## Deployment Link
 The deployment link to display the updated web page is: 
-[gh-pages](https://CaptainRich.github.io/react-portfolio-r_ay/) 
+[gh-pages](https://captainrich.github.io/React-Portfolio-R_Ay/) 
 
 
 
