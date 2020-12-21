@@ -59,10 +59,10 @@ The deployment link to display the updated web page is:
 
 ## Application Screen Shot
 
-![React-Portfolio-R_Ay Image 1](./assets/Images/portfolio1.jpg) The first image shows 
+![React-Portfolio-R_Ay Image 1](./src/assets/images/portfolio1.jpg) The first image shows 
 
-![React-Portfolio-R_Ay Image 2](./assets/Images/portfolio2.jpg) The second image shows 
+![React-Portfolio-R_Ay Image 2](./src/assets/images/portfolio2.jpg) The second image shows 
 
-![React-Portfolio-R_Ay Image 3](./assets/Images/portfolio3.jpg) The third image shows
+![React-Portfolio-R_Ay Image 3](./src/assets/images/portfolio3.jpg) The third image shows
 
-![React-Portfolio-R_Ay Image 3](./assets/Images/portfolio4.jpg) The third image shows 
+![React-Portfolio-R_Ay Image 3](./src/assets/images/portfolio4.jpg) The third image shows 
