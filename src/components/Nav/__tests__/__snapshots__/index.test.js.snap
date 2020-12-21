@@ -11,12 +11,12 @@ exports[`About component matches snapshot 1`] = `
         href="/"
       >
         <span
-          aria-label="camera"
+          aria-label="briefcase"
           role="img"
         >
-           📸
+           💼
         </span>
-         Oh Snap!
+         Portfolio for Richard Ay
       </a>
     </h2>
     <nav>
@@ -24,27 +24,10 @@ exports[`About component matches snapshot 1`] = `
         class="flex-row"
       >
         <li
-          class="mx-2"
-        >
-          <a
-            data-testid="about"
-            href="#about"
-          >
-            About me
-          </a>
-        </li>
-        <li
-          class="mx-2 navActive"
-        >
-          <span>
-            Contact
-          </span>
-        </li>
-        <li
           class="mx-1 false"
         >
           <span>
-            Portraits
+            About
           </span>
         </li>
       </ul>
