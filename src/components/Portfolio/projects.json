@@ -36,7 +36,7 @@
     "name": "Budget Tracker",
     "image": "budget-tracker.jpg",
     "description": "A web app to track monetary inflow/outflow during travel.",
-    "gitrepo":  "hhttps://github.com/CaptainRich/budget-tracker",
+    "gitrepo":  "https://github.com/CaptainRich/budget-tracker",
     "deployment": "https://budget-tracker-ray.herokuapp.com/"
   },
   {

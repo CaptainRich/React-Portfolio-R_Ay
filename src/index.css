@@ -315,3 +315,10 @@ a {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+
+footer {
+  background: var(--dark);
+  padding: 20px  35px;  
+  margin: auto;
+  text-align: center;
+}

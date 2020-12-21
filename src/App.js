@@ -4,6 +4,7 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Expertise from './components/Expertise';
 import ContactForm from './components/Contact';
+import Footer from './components/Footer';
 
 
 
@@ -60,6 +61,10 @@ function App() {
     }
   }
 
+  const renderFooter = () => {
+      return <Footer />;
+  }
+
   return (
     <div>
       {/* This element will put up the header. */}
@@ -76,6 +81,13 @@ function App() {
           {renderPage(currentOption)}
         </div>
       </main>
+
+      <footer>
+        <div>
+          {/* Display the page footer. */}
+          {renderFooter()}
+        </div>
+      </footer>
     </div>
   );
 }

@@ -1,6 +1,7 @@
 
 import React, {useState} from 'react'
 import projects from "./projects.json";
+import "./style.css"
 
 function ProjectCard( props ) {
 
@@ -20,9 +21,9 @@ function ProjectCard( props ) {
             <strong>Description:</strong> {props.description}
           </li>
           <li>
-            <strong>GitHub Repository:</strong> {props.gitrepo}
+            <strong>GitHub Repository:</strong> <a href={props.gitrepo} target="_blank" rel="noopener noreferrer">Click for GitHub.</a>
             <li>
-            <strong>Deployment Link:</strong> {props.deployment}
+            <strong>Deployment Link:</strong> <a href={props.deployment} target="_blank" rel="noopener noreferrer">Click to run this application.</a>
           </li>
           </li>
         </ul>

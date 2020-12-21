@@ -24,7 +24,7 @@ function Nav( props ) {
         <header className="flex-row px-1">
             <h2>
                 <a data-testid="link" href="/">
-                    <span role="img" aria-label="briefcase"> 💼</span> My Portfolio
+                    <span role="img" aria-label="briefcase"> 💼</span> Portfolio for Richard Ay
                 </a>
             </h2>
 
@@ -50,6 +50,8 @@ function Nav( props ) {
                 </ul>
             </nav>
         </header>
+
+
     );
 }
 
