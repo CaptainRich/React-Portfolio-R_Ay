@@ -1,6 +1,14 @@
 [
   {
     "id": 1,
+    "name": "Living-Real",
+    "image": "living-real.jpg",
+    "description": "A real estate management application for owners, tenants, and potential tenants.",
+    "gitrepo":  "https://github.com/P3T2-Realty-Rogues/living-real",
+    "deployment": "https://living-real.herokuapp.com/ "
+  },  
+  {
+    "id": 2,
     "name": "Auto-Tracker",
     "image": "auto-tracker1.jpg",
     "description": "Facilitates tracking important, date related auto details. Never miss an inspection, registration or oil change again.",
@@ -8,7 +16,7 @@
     "deployment": "https://team-3-auto-tracker.herokuapp.com/"
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "Weather Display",
     "image": "weather.jpg",
     "description": "Display weather forecasts for cities, for the current day and the next five days. Cities are saved in local storage for later review.",
@@ -16,7 +24,7 @@
     "deployment": "https://captainrich.github.io/Weather-Dashboard/"
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Stockman",
     "image": "stockman.jpg",
     "description": "Track stocks and Crypto Currencies as the markets fluctuate.  Quickly monitor activity on mobile devices to know when in-depth review on a brokerage site is necessary.",
@@ -24,7 +32,7 @@
     "deployment": "https://team-antman-project-1.github.io/stockman/"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Workday",
     "image": "workday.jpg",
     "description": "A workday planner - plan out important daily tasks on an hourly basis.  Tasks are color coded according to past, present and future time periods.",
@@ -32,7 +40,7 @@
     "deployment": "https://captainrich.github.io/WorkDay-Scheduler/"
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Budget Tracker",
     "image": "budget-tracker.jpg",
     "description": "A web app to track monetary inflow/outflow during travel. This is a progressive web application that can function when off-line, but later upload revised data to web storage when a connection is restored.",
@@ -40,7 +48,7 @@
     "deployment": "https://budget-tracker-ray.herokuapp.com/"
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Note Taker",
     "image": "notes-taker.jpg",
     "description": "Maintains a note (or To-Do) list.  Notes can be added, deleted, or modified.",
