@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Living-Real",
     "image": "living-real1.jpg",
-    "description": "A real estate management application for owners, tenants, and potential tenants.",
+    "description": "A real estate management application for owners, tenants, and potential tenants. This PWA is built with React and Redux. The application implements GraphQL to maintain state, Stripe for payments, as well as MongoDB and indexedDB to maintain data.",
     "gitrepo":  "https://github.com/P3T2-Realty-Rogues/living-real",
     "deployment": "https://living-real.herokuapp.com/ "
   },  
@@ -11,7 +11,7 @@
     "id": 2,
     "name": "Auto-Tracker",
     "image": "auto-tracker1.jpg",
-    "description": "Facilitates tracking important, date related auto details. Never miss an inspection, registration or oil change again.",
+    "description": "Facilitates tracking important, date related auto details. Never miss an inspection, registration or oil change again. This project implements the MVC architecture, ORM via sequelize to simplify SQL database operations, handlebars to assist with code modularization and page generation, bootstrap for layout and responsiveness, and AWS S3 for image operations.",
     "gitrepo":  "https://github.com/p2T3/auto-tracker",
     "deployment": "https://team-3-auto-tracker.herokuapp.com/"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "name": "Weather Display",
     "image": "weather.jpg",
-    "description": "Display weather forecasts for cities, for the current day and the next five days. Cities are saved in local storage for later review.",
+    "description": "This application obtains the current weather for a specified city and the forecast for the next five days.  Up to ten searched cities are saved in a selection list for a rapid reacquisition of their weather and forecast.  This selection list is maintained in the local browser storage.  Openweathermap is the API-endpoint used to acquire the weather data.",
     "gitrepo":  "https://github.com/CaptainRich/Weather-Dashboard",
     "deployment": "https://captainrich.github.io/Weather-Dashboard/"
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "name": "Stockman",
     "image": "stockman.jpg",
-    "description": "Track stocks and Crypto Currencies as the markets fluctuate.  Quickly monitor activity on mobile devices to know when in-depth review on a brokerage site is necessary.",
+    "description": "Track stocks and Crypto Currencies as the markets fluctuate.  Quickly monitor activity on mobile devices to know when in-depth review on a brokerage site is necessary. This application utilizes HTML, CSS, and JavaScript, implementing both web APIs and 3rd party API endpoints.",
     "gitrepo":  "https://github.com/CaptainRich/stockman",
     "deployment": "https://team-antman-project-1.github.io/stockman/"
   },
