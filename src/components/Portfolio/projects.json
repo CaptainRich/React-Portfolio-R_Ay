@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Living-Real",
-    "image": "living-real.jpg",
+    "image": "living-real1.jpg",
     "description": "A real estate management application for owners, tenants, and potential tenants.",
     "gitrepo":  "https://github.com/P3T2-Realty-Rogues/living-real",
     "deployment": "https://living-real.herokuapp.com/ "
