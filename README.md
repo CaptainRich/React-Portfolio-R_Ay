@@ -1,5 +1,5 @@
 # React Portfolio - A Personal Portfilio Implemented with React
-(Richard Ay - December 2020)
+(Richard Ay - December 2020, Updated January 2021)
 
 
 ## Table of Contents
@@ -65,4 +65,4 @@ The deployment link to display the updated web page is:
 
 ![React-Portfolio-R_Ay Image 3](./src/assets/images/portfolio3.jpg) The third image shows the skills and capabilities page.
 
-![React-Portfolio-R_Ay Image 3](./src/assets/images/portfolio4.jpg) The third image shows  the 'contact me' page.
+![React-Portfolio-R_Ay Image 3](./src/assets/images/portfolio4.jpg) The fourth image shows  the 'contact me' page.
