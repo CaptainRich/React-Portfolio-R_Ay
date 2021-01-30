@@ -3,6 +3,7 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Expertise from './components/Expertise';
+import Presentations from './components/Presentations';
 import ContactForm from './components/Contact';
 import Footer from './components/Footer';
 
@@ -33,6 +34,9 @@ function App() {
     { name: "expertise", 
       description: "My capabilities.", 
     },
+    { name: "presentations", 
+      description: "A few interesting presentations.", 
+    },    
     {
       name: "contact",
       description: "Request a return communication."
@@ -51,6 +55,9 @@ function App() {
         
       case 'expertise':
         return <Expertise />;
+        
+        case 'presentations':
+          return <Presentations />;        
 
       case 'contact':
         return <ContactForm />;
