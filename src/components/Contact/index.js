@@ -2,6 +2,8 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 
+import {BiCloudUpload} from "react-icons/bi";
+
 function ContactForm() {
 
     // Add the hook to maintain the form state.  Initialize the form fields to
@@ -54,18 +56,19 @@ function ContactForm() {
 
         <section>
             <h1 data-testid="h1tag">Contact me</h1>
-
+            <br></br>
+      
             {/* In the fields below, 'onBlur' acts like 'onChange', except it fires on a change of focus. */}
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
-                    <label htmlFor="name">Name:</label>
+                    <label htmlFor="name">Your Name:</label>
                     <input type="text" name="name" onBlur={handleChange} defaultValue={name} />
-                </div>
+                </div><br></br>
 
                 <div>
                     <label htmlFor="email">Email address:</label>
                     <input type="email" name="email" onBlur={handleChange} defaultValue={email} />
-                </div>
+                </div><br></br>
 
                 <div>
                     <label htmlFor="message">Message:</label>
@@ -79,9 +82,11 @@ function ContactForm() {
                     </div>
                 )}
 
-                <button type="submit" data-testid="buttontag">Submit</button>
+                <button className="vtext" type="submit" data-testid="buttontag"><BiCloudUpload size={30} color="#ffffff"></BiCloudUpload> &nbsp;Submit</button>
+                
+                {/* <button type="submit" data-testid="buttontag">Submit</button> */}
             </form>
-
+        
         </section>
     )
 }

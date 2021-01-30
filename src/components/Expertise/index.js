@@ -2,6 +2,9 @@ import React, {useState} from 'react'
 import ReactCardFlip from "react-card-flip";
 import inspectImage from "../../assets/images/mag-glass.svg";
 
+import {HiOutlineDesktopComputer} from "react-icons/hi";
+import {FcEngineering} from "react-icons/fc";
+
 
 
 function Expertise() {
@@ -42,7 +45,7 @@ function Expertise() {
         {/* Define two sets of 'bullets', describing the Engineering and Software capabilities. */}
         <ReactCardFlip isFlipped={isFlipped} flipDirection="vertical">
             <div className="front location-front-item flippers">
-              <h5 className="my-5 ">Software Expertise:</h5>
+              <h5 className="my-5 ">&nbsp; Software Expertise:</h5>
               <ul>
                 <li id="skill-list">Languages (C, C++, Fortran, Assembly)</li>
                 <li id="skill-list">Front-end web technologies (HTML, CSS, Javascript, React)</li>
@@ -51,12 +54,12 @@ function Expertise() {
                 <li id="skill-list">Back-end technologies (Express, NodeJS)</li>
               </ul>
               <button className="front-button" onClick={handleFlip}>
-                  Click for Engineering
+                  <FcEngineering size={30} color="#ff9800"></FcEngineering>&nbsp; Engineering
               </button>
             </div>
 
             <div className="back location-back-item flippers">
-              <h5 className="my-5">Engineering Expertise:</h5>
+              <h5 className="my-5">&nbsp; Engineering Expertise:</h5>
               <ul>
                 <li id="skill-list">Education (BS Ocean Engineering, MS Civil Engineering, MBA)</li>
                 <li id="skill-list">Licensing: Texas Professional Engineer</li>
@@ -64,8 +67,9 @@ function Expertise() {
                 <li id="skill-list">Skilled Presenter (Webinars and Seminars)</li>
                 <li id="skill-list">Competencies (Piping codes, Seismic and Wind standards)</li>
               </ul>
+  
               <button className="back-button" onClick={handleFlip}>
-                  Click for Software
+                  <HiOutlineDesktopComputer size={30} color="#ff9800"></HiOutlineDesktopComputer>&nbsp; Software
               </button>
             </div>
         </ReactCardFlip>

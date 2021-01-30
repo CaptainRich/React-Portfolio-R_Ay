@@ -108,8 +108,12 @@ button {
   outline: none;
   cursor: pointer;
   margin: 0 1px;
+  min-height: 64px;
+  display: flex;
+  align-items: center;
   background-color: var(--secondary);
 }
+
 
 button:hover {
   opacity: .8;
@@ -276,7 +280,8 @@ button {
 	cursor: pointer;
 	font-size: 16px;
 	font-weight: 600;
-	margin-bottom: 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 	padding: 10px 15px;	
 }
 
@@ -310,7 +315,7 @@ a {
 {
   margin: 0;
   position: absolute;
-  top: 110%;
+  top: 115%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -318,7 +323,14 @@ a {
 
 footer {
   background: var(--dark);
-  padding: 20px  35px;  
-  margin: auto;
-  text-align: center;
+  padding: 40px  35px;  
+  margin: 0 auto;
+  min-height: 64px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  line-height: 30px;
+  font-size: 24px;
 }
