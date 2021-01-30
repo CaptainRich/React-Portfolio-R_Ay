@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e0810dacfe9424a47a08674c8369c8b8",
+    "revision": "9cc65b68f607b2e38bae30b742269768",
     "url": "/React-Portfolio-R_Ay/index.html"
   },
   {
-    "revision": "9e29598b33e4ef6c9b64",
+    "revision": "ed17e02f2dd922566f00",
     "url": "/React-Portfolio-R_Ay/static/css/main.274f1981.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-Portfolio-R_Ay/static/js/2.ee7ae388.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9e29598b33e4ef6c9b64",
-    "url": "/React-Portfolio-R_Ay/static/js/main.51129f25.chunk.js"
+    "revision": "ed17e02f2dd922566f00",
+    "url": "/React-Portfolio-R_Ay/static/js/main.4c5ff82c.chunk.js"
   },
   {
     "revision": "19ed70207d2d3a2e80f4",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-Portfolio-R_Ay/static/media/employee-tracker.bd80877a.jpg"
   },
   {
-    "revision": "283c7364ee15dc317316a6205c0827b5",
-    "url": "/React-Portfolio-R_Ay/static/media/living-real1.283c7364.jpg"
+    "revision": "554f2657d68d74d9197797995ef22186",
+    "url": "/React-Portfolio-R_Ay/static/media/living-real1.554f2657.jpg"
   },
   {
     "revision": "9c12a53b4b81b8b0ef25e33521df7b5b",

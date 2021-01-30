@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/React-Portfolio-R_Ay/static/css/main.274f1981.chunk.css",
-    "main.js": "/React-Portfolio-R_Ay/static/js/main.51129f25.chunk.js",
-    "main.js.map": "/React-Portfolio-R_Ay/static/js/main.51129f25.chunk.js.map",
+    "main.js": "/React-Portfolio-R_Ay/static/js/main.4c5ff82c.chunk.js",
+    "main.js.map": "/React-Portfolio-R_Ay/static/js/main.4c5ff82c.chunk.js.map",
     "runtime-main.js": "/React-Portfolio-R_Ay/static/js/runtime-main.81b28b2b.js",
     "runtime-main.js.map": "/React-Portfolio-R_Ay/static/js/runtime-main.81b28b2b.js.map",
     "static/js/2.ee7ae388.chunk.js": "/React-Portfolio-R_Ay/static/js/2.ee7ae388.chunk.js",
     "static/js/2.ee7ae388.chunk.js.map": "/React-Portfolio-R_Ay/static/js/2.ee7ae388.chunk.js.map",
     "index.html": "/React-Portfolio-R_Ay/index.html",
-    "precache-manifest.43143217dc6073939894021faa75d840.js": "/React-Portfolio-R_Ay/precache-manifest.43143217dc6073939894021faa75d840.js",
+    "precache-manifest.e723eddd670e4a9cfddca735f3120800.js": "/React-Portfolio-R_Ay/precache-manifest.e723eddd670e4a9cfddca735f3120800.js",
     "service-worker.js": "/React-Portfolio-R_Ay/service-worker.js",
     "static/css/main.274f1981.chunk.css.map": "/React-Portfolio-R_Ay/static/css/main.274f1981.chunk.css.map",
     "static/js/2.ee7ae388.chunk.js.LICENSE.txt": "/React-Portfolio-R_Ay/static/js/2.ee7ae388.chunk.js.LICENSE.txt",
     "static/media/auto-tracker1.jpg": "/React-Portfolio-R_Ay/static/media/auto-tracker1.34f11373.jpg",
     "static/media/budget-tracker.jpg": "/React-Portfolio-R_Ay/static/media/budget-tracker.4ff35d9a.jpg",
     "static/media/employee-tracker.jpg": "/React-Portfolio-R_Ay/static/media/employee-tracker.bd80877a.jpg",
-    "static/media/living-real1.jpg": "/React-Portfolio-R_Ay/static/media/living-real1.283c7364.jpg",
+    "static/media/living-real1.jpg": "/React-Portfolio-R_Ay/static/media/living-real1.554f2657.jpg",
     "static/media/mag-glass.svg": "/React-Portfolio-R_Ay/static/media/mag-glass.9c12a53b.svg",
     "static/media/notes-taker.jpg": "/React-Portfolio-R_Ay/static/media/notes-taker.856fcd19.jpg",
     "static/media/portfolio1.jpg": "/React-Portfolio-R_Ay/static/media/portfolio1.f2cd8220.jpg",
@@ -32,6 +32,6 @@
     "static/js/runtime-main.81b28b2b.js",
     "static/js/2.ee7ae388.chunk.js",
     "static/css/main.274f1981.chunk.css",
-    "static/js/main.51129f25.chunk.js"
+    "static/js/main.4c5ff82c.chunk.js"
   ]
 }
