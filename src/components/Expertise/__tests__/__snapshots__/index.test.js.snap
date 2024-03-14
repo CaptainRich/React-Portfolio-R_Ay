@@ -78,7 +78,7 @@ exports[`Expertise component matches snapshot DOM node structure 1`] = `
                 <li
                   id="skill-list"
                 >
-                  Front-end web technologies (HTML, CSS, Javascript, React)
+                  Front-end web technologies (HTML, CSS, Python, Javascript, React)
                 </li>
                 <li
                   id="skill-list"

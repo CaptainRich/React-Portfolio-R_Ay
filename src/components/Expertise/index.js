@@ -48,7 +48,7 @@ function Expertise() {
               <h5 className="my-5 ">&nbsp; Software Expertise:</h5>
               <ul>
                 <li id="skill-list">Languages (C, C++, Fortran, Assembly)</li>
-                <li id="skill-list">Front-end web technologies (HTML, CSS, Javascript, React)</li>
+                <li id="skill-list">Front-end web technologies (HTML, CSS, Python, Javascript, React)</li>
                 <li id="skill-list">Development tools (Git, npm, Jest, Webpack)</li>
                 <li id="skill-list">Database technologies (SQLite, MySQL, MongoDB)</li>
                 <li id="skill-list">Back-end technologies (Express, NodeJS)</li>

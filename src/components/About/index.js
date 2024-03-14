@@ -21,7 +21,7 @@ function About() {
           I have been with this firm for 35 years, working my way up to partner-owner before we sold to a larger
           corporation. My position requires not only software planning, development, and maintenance - but
           also the supervision of the technical staff, acquisition plans, business plans, technical support,
-          documentation, training, and presentations.  Software development efforts involved various technologies and languages (Assembly, Fortran, C, C++, HTML, CSS, and Javascript).
+          documentation, training, and presentations.  Software development efforts involved various technologies and languages (Assembly, Fortran, C, C++, HTML, CSS, Python, and Javascript).
         </p>
 
         <p>
