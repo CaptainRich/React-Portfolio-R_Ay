@@ -27,7 +27,7 @@ function Expertise() {
         <div className="my-resume">
           {/* Configure this link to open in a new "tab" */}
           <img src={inspectImage} className="my-2" style={{ width: "5%" }} alt="Magnifying Glass" />
-          <a href ="https://drive.google.com/file/d/1ckQtj7fc67mH15Ucy8NuR81DeRe0bwQ3/view?usp=sharing"  
+          <a href ="https://drive.google.com/file/d/1Mq01MP39wKnPAV0HNqoXiqBHhvkNsTw2/view?usp=drive_link"  
                     target="_blank" rel="noopener noreferrer" aria-label="My-Resume" id="my-resume">
                       Click here to inspect my complete Resume. </a>
           <img src={inspectImage} className="my-2" style={{ width: "5%" }} alt="Magnifying Glass" />
