@@ -62,10 +62,11 @@ function Expertise() {
               <h5 className="my-5">&nbsp; Engineering Expertise:</h5>
               <ul>
                 <li id="skill-list">Education (BS Ocean Engineering, MS Civil Engineering, MBA)</li>
+                <li id="skill-list">Certificates (Online Coding, UT Austin; Financial Management, Johns Hopkins Baltimore)</li>
                 <li id="skill-list">Licensing: Texas Professional Engineer</li>
                 <li id="skill-list">Society Membership (ASCE, ASME)</li>
                 <li id="skill-list">Skilled Presenter (Webinars and Seminars)</li>
-                <li id="skill-list">Competencies (Piping codes, Seismic and Wind standards)</li>
+                <li id="skill-list">Competencies (Piping codes, Equipment codes, Seismic and Wind standards)</li>
               </ul>
   
               <button className="back-button" onClick={handleFlip}>
